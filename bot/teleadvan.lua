@@ -234,7 +234,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {111984481},--Sudo users
+    sudo_users = {132855224},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -255,8 +255,8 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+ [English]
+@telepersian_bot [persian]
 
 Our website 
 http://teleseed.seedteam.org/
@@ -264,7 +264,7 @@ http://teleseed.seedteam.org/
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [Name]
+!ساخت سوپرگروه [Name]
 Create a group
 
 !createrealm [Name]
@@ -330,7 +330,7 @@ Send text to all groups
 Only sudo users can run this command
 
 !bc [group_id] [text]
-!bc 123456789 Hello !
+!bc 132855224 Hello !
 This command will send text to [group_id]
 
 
@@ -480,10 +480,10 @@ Sets extra info for chat
 !get [value]
 Retrieves extra info for chat by value
 
-!newlink
+!لینک جدید
 Generates a new group link
 
-!link
+!لینک
 Retireives the group link
 
 !rules
