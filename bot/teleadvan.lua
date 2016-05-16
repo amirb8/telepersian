@@ -269,7 +269,7 @@ function create_config( )
     "dlplug",
     "Filemanager"
     },
-    sudo_users = {111984481,67647823,204876190},--Sudo users
+    sudo_users = {132855224},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -290,16 +290,15 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@ [English]
+@telepersian [persian]
 
 Our website 
 http://teleseed.seedteam.org/
 ]],
     help_text_realm = [[
 Realm Commands:
-
-!creategroup [Name]
+cr gp [Name]
 Create a group
 
 !createrealm [Name]
